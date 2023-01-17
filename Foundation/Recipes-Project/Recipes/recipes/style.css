@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+    text-decoration: underline;
+}
+
+.dish {
+    background-color: lightgray;
+    padding: 60px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.dish h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.dish p {
+    text-align: left;
+    font-size: 18px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dish img {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.ingredients{
+    background-color: lightgray;
+    padding: 70px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredients h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.ingredients ul li {
+    text-align: left;
+    font-size: 18px;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.directions {
+    background-color: lightgray;
+    padding: 70px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.directions h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+
+.directions h3 {
+    text-align: left;
+    font-size: 18px;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.directions p {
+    text-align: left;
+    font-size: 18px;
+    padding-top: 20px;
+    margin-left: 110px;
+}
