@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a9140;
+}
+
+header {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.recipes {
+    background-color: lightblue;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.recipes h1 {
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.recipes ol li {
+    padding: 10px;
+    margin: 2px;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.img {
+    width: 300px;
+    height: auto;
+    margin-left: 18px;
+    cursor: pointer;
+}
